@@ -56,7 +56,13 @@ brew install alacritty
 ## Build
 
 ```sh
-cargo build
+cargo build --release
+```
+
+To create an app bundle that can be copied to your Applications folder, use
+
+```sh
+cargo bundle --release
 ```
 
 ## Configuration
